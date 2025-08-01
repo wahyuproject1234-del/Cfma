@@ -87,7 +87,7 @@ proxy-groups:
     proxies:
       - AKUN1
       - AKUN2
-      - AKUN3
+      - kubep
 
   - name: MIX-X
     type: fallback
@@ -96,7 +96,7 @@ proxy-groups:
     proxies:
       - AKUN1
       - AKUN2
-      - AKUN3
+      - kubep
       
   - name: IKLAN
     type: select
