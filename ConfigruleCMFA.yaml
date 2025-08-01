@@ -63,20 +63,20 @@ proxies:
       headers:
         Host: id1vless.ipservers.xyz
     udp: true
-  - name: AKUN3
-    server: quiz.int.vidio.com
+  - name: kubep
+    server: 104.18.2.2
     port: 443
     type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
+    uuid: 8fb0a368-6955-4380-8e78-021a9833990b
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
+    servername: wahyuvpn.gachorr.web.id
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vless
       headers:
-        Host: id2vless.ipservers.xyz
+        Host: wahyuvpn.gachorr.web.id
     udp: true
 
 proxy-groups:
